@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="移动终端软件开发 · 实验三"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1565C0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="线程与网络通信   胡俊峰  202402323"
+        android:textSize="14sp"
+        android:textColor="#666666" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#DDDDDD" />
+
+    <Button
+        android:id="@+id/btnTcp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="程序1  TCP流套接字通信" />
+
+    <Button
+        android:id="@+id/btnHttp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="程序2  HTTP网络请求（GET/POST）" />
+
+    <Button
+        android:id="@+id/btnWebView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="程序3  WebView加载网页" />
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="程序4  LocationManager定位" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="说明：程序1、程序2 需要先在本机运行 server 目录下的 Java 服务器程序（TCP 端口 8888，HTTP 端口 8080）；模拟器中用 10.0.2.2 访问主机。"
+        android:textSize="12sp"
+        android:textColor="#888888" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+# 本机运行/构建中间产物（不提交）
+.runtime/
+_work/
+__pycache__/
+*.pyc
+
+# Android / Gradle
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 编译产物与日志
+*.class
+*.log
+
+# 系统文件
+Thumbs.db
+.DS_Store
