@@ -76,6 +76,9 @@ adb shell am start -n com.example.threadsnetwork/.LocationActivity
 模拟器内的 `10.0.2.2` 指向宿主机；真机测试时把 `TcpClientActivity` 中的
 `SERVER_IP`、`HttpActivity` 中的 `HTTP_URL` 改成主机的局域网 IP（如 `10.28.137.252`）。
 
+> 说明：`local.properties`（记录本机 Android SDK 路径）不纳入版本库。用 Android Studio 打开工程时会自动生成；
+> 若用命令行构建，请先在 `android/Lab3ThreadsNetwork/` 下创建 `local.properties`，内容为 `sdk.dir=你的SDK路径`。
+
 ### 定位调试
 
 ```bash
